@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "403215366874",
+    "project_id": "paristrip-bfa75",
+    "storage_bucket": "paristrip-bfa75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403215366874:android:8d1165ccb3cdcb159bc3e3",
+        "android_client_info": {
+          "package_name": "com.aistudio.paristrip2026.fptzwl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2CLbvjLU5VKFoPze5x7VI5DAen2RUnpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
