@@ -1,8 +1,8 @@
 name: Build Android APK
 
 on:
-  workflow_dispatch:
   push:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,8 +18,18 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Grant permissions
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Make gradlew executable
         run: chmod +x gradlew
+
+      - name: Accept licenses
+        run: yes | sdkmanager --licenses
+
+      - name: Install build tools
+        run: |
+          sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
       - name: Build APK
         run: ./gradlew assembleDebug
