@@ -1,0 +1,6 @@
+{
+  "name": "Paris Trip 2026",
+  "description": "Your ultimate luxury companion for the Paris 2026 trip, featuring timelines, offline maps, weather, notifications, and interactive checklists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
